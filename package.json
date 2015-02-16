@@ -1,0 +1,27 @@
+{
+  "name": "react-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel/register -w -r should **/*.mocha.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^4.0.1",
+    "babel-loader": "^4.0.0",
+    "koa-webpack-dev": "^0.1.2",
+    "mocha": "^2.1.0",
+    "react": "^0.12.2",
+    "react-hot-loader": "^1.1.5",
+    "should": "^5.0.0",
+    "webpack": "^1.5.3",
+    "webpack-dev-server": "^1.7.0"
+  },
+  "dependencies": {
+    "babel": "^4.0.1",
+    "koa": "^0.18.0",
+    "koa-static": "^1.4.9"
+  }
+}
